@@ -1,0 +1,15 @@
+{
+  "require": {
+    "symfony/console": "2.*",
+    "illuminate/database": "~5.0"
+  },
+  "autoload":{
+    "classmap":"database",
+    "psr-4": {
+      "Betteryourweb\\": "src/",
+      "App\\":"app/",
+      "Database\\":"database/"
+    }
+
+  }
+}
